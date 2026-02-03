@@ -2,7 +2,7 @@
 
 Important notes:
 
-We added a key we had to remove a key. '/' is available via a combo by hitting ';' + '.' at the same time.
+We added a key so we had to remove a key. To type '/' press ';' + '.' at the same time.
 
 Similarly pressing '\[' + '\]' will toggle a Qwerty layer.
 
