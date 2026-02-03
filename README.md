@@ -5,7 +5,6 @@ Echo is a high performance alternate keyboard layout that leverages a 'magic' ke
 It uses a non-standard fingermap to take full advantage of rowstagger as demonstrated in this image, however this also means Echo is not compatible with colstag boards.
 
 ![Layout visualization](images/echo.svg)
-
 ```
 Echo | monkeyracer
   f d l m p x j o u q
@@ -36,9 +35,9 @@ Redirect (+sfs): 6.172%
 │  full scissor  │  0.245%  │  0.773%    │  1.039%     │
 └────────────────┴──────────┴────────────┴─────────────┘
 ```
-For reference, on the same corpus, non magic layouts have a repeat bigram rate of 2.828%.
-
 (stats via Mana, notably redirect stats in Mana include SFS rediects)
+
+For reference, on the same corpus, non magic layouts have a repeat bigram rate of 2.828%.
 
 # Magic?
 
