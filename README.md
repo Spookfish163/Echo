@@ -1,8 +1,8 @@
 # ECHO
 
-Echo is a high performance alternate keyboard layout that leverages a 'magic' key to break through certain unavoidable limitations faced by traditional layouts. It doesn't require thumb keys or an expensive keyboard, you can use it anywhere you can install your own software. It was designed from the ground up with magic in mind using tools like Oxeylyzer with a repeat corpus, and Mana for analysis.
+Echo is a high performance alternate keyboard layout that leverages a 'magic' key to break through certain unavoidable limitations faced by traditional layouts. It doesn't require thumb keys or an expensive keyboard. You can use it anywhere you can install your own software. It was designed from the ground up with magic in mind using tools like Oxeylyzer with a repeat corpus, and Mana for analysis.
 
-It uses a nonstandard fingermap to take full advantage of rowstagger as demonstrated in this image, however this also means Echo is completely non-viable for colstag boards.
+It uses a non-standard fingermap to take full advantage of rowstagger as demonstrated in this image, however this also means Echo is not compatible with colstag boards.
 
 ![Layout visualization](images/echo.svg)
 
@@ -50,27 +50,41 @@ While this enables a great degree of complexity, even simple rules can substanti
 
 # The fingermap
 
-Originally pioneered by StronglyTyped (see: [Graphite](https://github.com/rdavison/graphite-layout)) for the layout Nokwts, the goal of this fingermap is to assign a finger to a region of the keyboard rather than a strict column. In Echo we take advantage of this to map three relatively high usage keys 'rlm' to the strong middle finger without causing high vertical movement. Instead the middle finger can hover around this triangle of keys, able to easily hit any of them in quick succession. Unrelated to the fingermap, there's a similar effect on the right index. It mostly hits 'nh\*b', only rarely reaching to the top row for the low usage 'jx'.
+Originally pioneered by StronglyTyped (see: [Graphite](https://github.com/rdavison/graphite-layout)) for the layout Nokwts, the goal of this fingermap is to assign a finger to a region of the keyboard rather than a strict column.
+
+With Echo we take advantage of this to map three relatively high usage keys, 'rlm', to the strong middle finger, without causing high vertical movement. Instead the middle finger can hover around this triangle of keys, able to easily hit any of them in quick succession.
+
+Unrelated to the fingermap, there's a similar effect on the right index. It mostly hits 'nh\*b', only rarely reaching to the top row for the low usage 'jx'.
 
 # Alt fingerings
 
 The biggest SFB is '\*n', which for this layout would occur on 'oon' 'een', etc. This is a very nice alt if you hit '\*' with index and 'n' with middle. Doing this alt brings the total SFBs below 0.5%. However if you're particularly sensitive to redirects you may prefer to tank it. You can do a similar alt to type 'nn' with the magic key, leaving 'bb' as the only repeat typed manually.
 
-There are a large number of low frequency alts available between the left middle and left index fingers, thanks in part to the fingermap. For these examples 'I' = Index and 'M' = middle, so 'cy' -> IM means you hit c with index and y with middle.
+There are a large number of low frequency alts available between the left middle and left index fingers, thanks in part to the fingermap.
+
+For these examples 'I' = Index and 'M' = middle, so 'cy' -> IM means you hit c with index and y with middle.
 
 cy -> IM
+
 gy -> IM
+
 lm -> MI
+
 rm -> MI
+
 rl -> IM
 
-That should give you an idea though more are possible. If you find an SFB on those fingers and you enjoy alts, you can probably find something.
+That should give you an initial idea, though more are possible. If you find an SFB on those fingers and you enjoy alts, you will probably find something.
 
 # Are repeats even a big deal?
 
 This is ultimately a personal decision, but I'll present my reasons for concluding that they are.
 
-The SFB (same finger bigram) is widely accepted as the worst stat because you're bottlenecked by waiting for a single finger to act twice in a row. A repeat *is* a same finger bigram, there's just no movement so we could call it a 0u SFB. It's counter intuitive but some people type 0u SFBs *slower* than 1u sfbs, this could be influenced by the type of keyboard being used. To get a first hand sense of how fast you type 0u SFBs I recommend spending some time on [zippywords](https://zippywords.com). See how fast you type repeats and how comfortable you find hitting them as fast as possible. Some of the fastest Qwerty typists are also adding a repeat to their layout on Capslock and/or a punctuation key to reach increasingly absurd speeds.
+The SFB (same finger bigram) is widely accepted as the worst stat because you're bottlenecked, waiting for a single finger to act twice in a row. A repeat *is* a same finger bigram, there's just no movement so we could call it a 0u SFB.
+
+It's counter intuitive but some people type 0u SFBs *slower* than 1u sfbs, this could be influenced by the type of keyboard being used. To get a first hand sense of how fast you type 0u SFBs I recommend spending some time on [zippywords](https://zippywords.com). See how fast you type repeats and how comfortable you find hitting them as fast as possible.
+
+Some of the fastest Qwerty typists are also adding a repeat to their layout on Capslock and/or a punctuation key to reach increasingly absurd speeds.
 
 Modern layouts reach SFB rates under 0.8% but have their repeat rates pinned at 2.8%\~. Assuming no alts Echo totals 0.715% for both. With the alts I use the total is 0.2%\~.
 
