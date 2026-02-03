@@ -49,7 +49,7 @@ While this enables a great degree of complexity, even simple rules can substanti
 
 # The fingermap
 
-Originally pioneered by StronglyTyped (see: [Graphite](https://github.com/rdavison/graphite-layout)) for the layout Nokwts, the goal of this fingermap is to assign a finger to a region of the keyboard rather than a strict column.
+Originally pioneered by StronglyTyped (see: [Graphite](https://github.com/rdavison/graphite-layout)) and popularized by the layout Nokwts, the goal of this fingermap is to assign a finger to a region of the keyboard rather than a strict column.
 
 With Echo we take advantage of this to map three relatively high usage keys, 'rlm', to the strong middle finger, without causing high vertical movement. Instead the middle finger can hover around this triangle of keys, able to easily hit any of them in quick succession.
 
@@ -93,7 +93,7 @@ See [here](kanata/) for details.
 
 # Acknowledgements
 
-Thank you to Oxey (see:[Oxeylyzer](https://github.com/O-X-E-Y/oxeylyzer)) and Zak (see:[Mana](https://github.com/Zakkkk/mana)) for their tools that drastically sped up my iteration time, Nova (Kanata config repo coming soon) for trying an earlier version and giving feedback, and the AKL discord in general for being a helpful friendly place.
+Thank you to Oxey (see: [Oxeylyzer](https://github.com/O-X-E-Y/oxeylyzer)) and Zak (see: [Mana](https://github.com/Zakkkk/mana)) for their tools that drastically sped up my iteration time, Nova (Kanata config repo coming soon) for trying an earlier version and giving feedback, and the AKL discord in general for being a helpful friendly place.
 
 Some other magic layouts that don't require thumb keys are [Graphyre](https://gitlab.com/paulmorris/keyboard-layouts/-/blob/main/Graphyre/README.md) and [Vylet](https://github.com/MightyAcas/vylet). Both of which place much lower emphasis on repeats.
 
