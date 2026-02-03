@@ -90,7 +90,7 @@ Modern layouts reach SFB rates under 0.8% but have their repeat rates pinned at 
 
 # How do I use it?
 
-See [here](kanata/README.md/) for details.
+See [here](kanata/) for details.
 
 # Acknowledgements
 
