@@ -1,0 +1,71 @@
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+q    w    e    r    t    y    u    i    o    p    [    ]
+a    s    d    f    g    h    j    k    l    ;    '
+z    x    c    v    b    n    m    ,    .    /
+)
+
+(deflayer base
+f    d    l    m    p    x    j    o    u    q    @[1  @]1
+s    t    r    y    c    b    n    a    e    i    ,
+z    k    w    g    v  @magic h    '    @;   @.
+)
+
+(deflayer qwerty
+q    w    e    r    t    y    u    i    o    p    @[2  @]2
+a    s    d    f    g    h    j    k    l    ;    '
+z    x    c    v    b    n    m    ,    .    /
+)
+
+(defchords slash_chord 100
+    (;) ;
+    (.) .
+    (; .) /
+)
+
+(defchords toqwerty_chord 100
+    ([) [
+    (]) ]
+    ([ ]) @toqwerty
+)
+
+(defchords tobase_chord 100
+    ([) [
+    (]) ]
+    ([ ]) @tobase
+)
+
+(defalias
+  ; (chord slash_chord ;)
+  . (chord slash_chord .)
+
+  [1 (chord toqwerty_chord [)
+  ]1 (chord toqwerty_chord ])
+  [2 (chord tobase_chord [)
+  ]2 (chord tobase_chord ])
+
+  toqwerty (layer-switch qwerty)
+  tobase (layer-switch base)
+
+  magic (switch
+    ((and (key-history spc 2) (key-history s 1))) k break
+    ((and (key-history spc 3) (key-history ShiftRight 2) (key-history s 1))) k break
+    ((and (key-history spc 3) (key-history ShiftLeft 2) (key-history s 1))) k break
+
+    ((key-history q 1)) (macro u e n) break
+    ((and (key-history ShiftRight 2) (key-history q 1))) (macro u e n) break
+    ((and (key-history ShiftLeft 2) (key-history q 1))) (macro u e n) break
+
+    ((and (key-history o 2) (key-history u 1))) ' break
+
+    ((key-history u 1)) e break
+    ((key-history y 1)) p break
+    ((key-history a 1)) o break
+    ((key-history k 1)) s break
+    ((key-history . 1)) (macro . .) break
+    () rpt break
+  )
+)
