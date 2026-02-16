@@ -1,6 +1,6 @@
 # ECHO
 
-Echo is a high performance alternate keyboard layout that leverages a 'magic' key to break through certain unavoidable limitations faced by traditional layouts. It doesn't require thumb keys or an expensive keyboard. You can use it anywhere you can install your own software. It was designed from the ground up with magic in mind using tools like Oxeylyzer with a repeat corpus, and Mana for analysis.
+Echo is a high performance alternative keyboard layout that leverages a 'magic' key to break through certain unavoidable limitations faced by traditional layouts. It doesn't require thumb keys or an expensive keyboard. You can use it anywhere you can install your own software. It was designed from the ground up with magic in mind using tools like Oxeylyzer with a repeat corpus, and Mana for analysis.
 
 It uses a non-standard fingermap to take full advantage of rowstagger as demonstrated in this image, however this also means Echo is not compatible with colstag boards.
 
