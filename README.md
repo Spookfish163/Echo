@@ -93,7 +93,7 @@ See [here](kanata/) for details.
 
 # Acknowledgements
 
-Thank you to Oxey (see: [Oxeylyzer](https://github.com/O-X-E-Y/oxeylyzer)) and Zak (see: [Mana](https://github.com/Zakkkk/mana)) for their tools that drastically sped up my iteration time, Nova (Kanata config repo coming soon) for trying an earlier version and giving feedback, and the AKL discord in general for being a helpful friendly place.
+Thank you to Oxey (see: [Oxeylyzer](https://github.com/O-X-E-Y/oxeylyzer)) and Zak (see: [Mana](https://github.com/Zakkkk/mana)) for their tools that drastically sped up my iteration time, Nova [Kanata Guide](https://github.com/zachpoblete/kanata-guide-for-alt-layouts) for trying an earlier version and giving feedback, and the AKL discord in general for being a helpful friendly place.
 
 Some other magic layouts that don't require thumb keys are [Graphyre](https://gitlab.com/paulmorris/keyboard-layouts/-/blob/main/Graphyre/README.md) and [Vylet](https://github.com/MightyAcas/vylet). Both of which place much lower emphasis on repeats.
 
