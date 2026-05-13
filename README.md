@@ -75,7 +75,7 @@ rl -> IM
 
 That should give you an initial idea, though more are possible. If you find an SFB on those fingers and you enjoy alts, you will probably find something.
 
-# Are repeats even a big deal?
+# Are repeats really a problem?
 
 This is ultimately a personal decision, but I'll present my reasons for concluding that they are.
 
@@ -90,6 +90,10 @@ Modern layouts reach SFB rates under 0.8% but have their repeat rates pinned at 
 # How do I use it?
 
 See [here](kanata/) for details.
+
+# Potential swaps
+
+Depending on the angle of your left hand relative to the keyboard, you might find swapping F and Z to be more comfortable.
 
 # Acknowledgements
 
